@@ -65,13 +65,13 @@ Handles API Gateway requests, extracts blogtopic, generates blog, saves result.
 
 ## How to Deploy & Test:
 1. Setup Lambda
-   Create a new Lambda function (Python 3.12).
-   Upload app.py.
-   configuration for Admin access in Lambda function
+   1. Create a new Lambda function (Python 3.12).
+   2. Upload app.py.
+   3. configuration for Admin access in Lambda function
 
 2. Add Lambda Layer
-   Upload botolayer.zip as a Lambda Layer.
-   Integrate to lambda function.
+   1. Upload botolayer.zip as a Lambda Layer.
+   2. Integrate to lambda function.
    <img width="1440" height="788" alt="image" src="https://github.com/user-attachments/assets/005e4cfa-0ed4-400e-92c3-a7e8b7aea6cb" />
 
 3. Configure API Gateway
@@ -81,12 +81,12 @@ Handles API Gateway requests, extracts blogtopic, generates blog, saves result.
 
    Deploy API and copy Invoke URL.
 
-4. Create an S3 bucket
+5. Create an S3 bucket
    <img width="1440" height="788" alt="image" src="https://github.com/user-attachments/assets/92baecea-87fb-4f61-b0cd-aec9a5374a3a" />
 
    <img width="1440" height="788" alt="image" src="https://github.com/user-attachments/assets/b3dd29e9-700e-4918-9def-15c6c5d447d9" />
 
-5. Test with Postman
+6. Test with Postman
    <img width="2000" height="1096" alt="image" src="https://github.com/user-attachments/assets/803603bd-234a-4e48-8338-77bb9cb52bd6" />
 7. Montitor the logs using cloud watch
    <img width="1440" height="788" alt="image" src="https://github.com/user-attachments/assets/ed8b9cfb-80ae-409e-96d0-6ee806e19fb9" />
